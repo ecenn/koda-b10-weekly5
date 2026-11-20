@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Public+Sans:wght@100..900&display=swap');;
 @import "tailwindcss";
+
+@theme {
+  /* font family */
+  --font-fraunces: 'Fraunces', serif;
+  --font-public: 'Public Sans', sans-serif;
+  --font-ibm: 'IBM Plex Mono', monospace;
+
+  /* bg color */
+  --color-bg-back: #F7F2E7;
+  --color-bg-dark: #0F6B4F;
+  --color-bg-light: #FFFDF8;
+  --color-bg-accent: #E6F2EB;
+
+  /* font */
+  --color-dark: #13231B;
+  --color-semi-dark: #4C5B52;
+  --color-semi-light: #84928A;
+  --color-light: #FFFFFF;
+
+  /* border */
+  --color-bdark: #D7CBB6;
+  --color-blight: #E8E0D1;
+}
+
+@layer components {
+  .card {}
+
+  .btn-dark {}
+  .btn-light {}
+
+  .status {}
+  .submitted {}
+  .received {}
+  .in-review {}
+  .assigned {}
+  .awaiting {}
+  .resolved {}
+  .closed {}
+}
