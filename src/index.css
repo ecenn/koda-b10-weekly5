@@ -24,7 +24,7 @@
   --color-blight: #E8E0D1;
 }
 
-@layer components {
+/* @layer components {
   .card {}
 
   .btn-dark {}
@@ -38,4 +38,4 @@
   .awaiting {}
   .resolved {}
   .closed {}
-}
+} */
